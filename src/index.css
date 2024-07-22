@@ -1,0 +1,40 @@
+div {
+  margin: 4px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 5px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #fff;
+  font-family: sans-serif;
+}
+
+.card-image {
+  width: 100px; /* Ajusta el tamaño de la imagen según sea necesario */
+  height: 100px; /* Ajusta el tamaño de la imagen según sea necesario */
+  border-radius: 50%; /* Hace que la imagen sea redonda */
+  object-fit: cover; /* Asegura que la imagen se recorte adecuadamente */
+}
+
+.card-title {
+  margin: 1px 0 5px;
+  font-size: 1.2em;
+}
+
+.card-info {
+  margin: 0;
+  font-size: 0.9em;
+  color: #666;
+}
